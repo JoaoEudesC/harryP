@@ -1,0 +1,214 @@
+body{
+    background-image: url(assets/backgound-teste8.jpeg);
+    box-sizing: border-box;
+}
+
+
+
+h1{
+    margin: auto;
+    color:aliceblue;
+    font-size: 55px;
+   
+   
+    border-radius: 25px 50px;
+    width: 600px;
+    box-shadow: 10px 10px 10px 10px rgb(12, 0, 0);
+    padding: 5px;
+    
+} 
+    
+
+
+header img{
+    box-shadow: 5px 5px 5px 5px white;
+    
+    }
+
+
+
+
+header{
+
+        text-align: center;
+        margin: auto;
+        cursor: pointer;   
+     
+    }
+
+
+    
+    
+    #grifinoria{
+        background-color: rgb(165, 164, 164);
+        margin: 50px;
+        box-shadow: 6px 6px 6px 6px black;
+        padding: 5px;
+
+    }
+
+    
+    #grifinoria  p :hover{
+        width: 300px;
+        transition-duration: 4s;
+        cursor: pointer;
+    }
+
+
+    
+    
+    #soncerina{
+        background-color: rgb(165, 164, 164);
+        margin: 50px;
+        box-shadow: 6px 6px 6px 6px black;
+        padding: 5px;
+
+    }
+
+
+
+#soncerina  p :hover{
+        width: 300px;
+        transition-duration: 4s;
+        cursor: pointer;
+    }
+
+
+
+#corvinal{
+        background-color: rgb(165, 164, 164);
+        margin: 50px;
+        box-shadow: 6px 6px 6px 6px black;
+        padding: 5px;
+    }
+
+
+
+ 
+ 
+
+#corvinal  p :hover{
+        width: 300px;
+        transition-duration: 4s;
+        cursor: pointer;
+    }
+
+
+
+#lufa{
+        background-color: rgb(165, 164, 164);
+        margin: 50px;
+        box-shadow: 6px 6px 6px 6px black;
+        padding: 5px;
+    }
+
+
+ 
+    
+
+#lufa p :hover{
+        width: 300px;
+        transition-duration: 4s;
+        cursor: pointer;
+    }
+
+
+
+#fundadores{
+        background-color: darkslategray;
+        padding: 5px;
+        box-shadow: 6px 6px 6px 6px black;
+        margin: 50px;
+    }
+h3{font-size: 50px;}
+
+
+
+strong{
+    font-size: 25px;
+}
+
+
+.vermelho{
+    color: rgb(197, 8, 8);
+}
+
+
+.verde{
+    color: rgb(6, 119, 6);
+}
+
+.azul{
+    color: rgb(7, 7, 182);
+}
+
+.amarelo{
+    color: rgb(173, 173, 5);
+}
+
+.fundaçao :hover{
+    width: 200px;
+    transition-duration: 4s;
+    cursor: pointer;
+}
+
+
+h4{
+    font-size: 30px;
+}
+
+
+
+#mapa{
+    display: block;
+    text-align: center;
+    margin: 10px;
+   color: white;
+   font-size: 50px;
+   cursor: pointer;
+   
+}
+#mapa p{
+    background-color:burlywood;
+    width: auto;
+    text-align: center;
+    display: block;
+    box-shadow: 6px 6px 6px 6px black;
+}
+
+
+
+
+
+
+#varinha{
+    display: block;
+    
+    margin: 10px;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+   
+}
+   
+
+
+#varinha p{
+    background-color:burlywood;
+    width: auto;
+    text-align: center;
+    display: block;
+    box-shadow: 6px 6px 6px 6px black;
+}  
+ol{
+    font-size: 20px;
+}
+
+#quiz{
+    background-color: darkslategray;
+    color: white;
+    font-size: 25px;
+    cursor: pointer
+}
+   
+
