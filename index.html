@@ -5,19 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hogwarts</title>
+    <link rel="shortcut icon" href="assets/ico.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main>
-        <header>
-            <div>
-                <h1 id="pombo">
-                    hogwarts e suas casas 
-                    <img src="assets/pombo de ouro.gif" alt="">
-                </h1>
-            </div>
+        <header id="pombo">
+            <nav id="entrada">
+                <img src="assets/h2.png" alt="harry"width="80px" height="auto" class="hp">
+                <a href="#fundadores" id="f" >fundadores</a>
+                <a href="#books" id="b" >livros</a>
+                <a href="#quiz" id="q" > quiz</a>
+                <a href="#mapa" id="swear" >mapa do maroto</a>
+                <img src="assets/h2.png" alt="harry" width="80px" height="auto" class="hp">
+            </nav>
         </header>
+        
+        <div id="subtitulo">
+            <h2>hogwarts uma historia</h2>
+            <img src="assets/pombo de ouro.gif" alt="pombo" id="voa">
+        </div>
         
         <div id="grifinoria">
             <p>
@@ -101,42 +109,54 @@
         <section>
             <span id="mapa">
                 <p>Eu Juro Solenemente Que Não Vou Fazer Nada De Bom</p>
-                <img src="assets/mapa do maroto.gif" alt="mapa">
+                <img src="assets/mapa do maroto.gif" alt="mapa" id="map">
             </span>
         </section>
 
         <div id="quiz">
-            <h2>faça a N.O.M.s para concluir hogwarts          <span id="click"> (OBS: click nos livros para acender as perguntas) </span></h2>
+            <h2 id="nos">faça a N.O.M.s para concluir hogwarts    <span id="click"> (OBS: click nos livros para acender as perguntas) </span></h2>
             <section>
                 <ul>
                     <li>
                         Poções (Professor: Horácio Slughorn)   
-                        <p><img src="assets/poçoes quiz.jpg" alt="poçoes" width="150px" height="auto" id="poçoes"></p>
+                        <p class="perguntas">
+                            <img src="assets/poçoes quiz.jpg" alt="poçoes" width="150px" height="auto" id="poçoes">
+                        </p>
                     </li>
                     
                     <li>
                         Historia da magia ( Professor: Cuthbert Binns)
-                        <p><img src="assets/quizz historia da magia.jfif" alt="hitoria da magia " width="100px" height="auto" id="historia"></p>
+                        <p class="perguntas">
+                            <img src="assets/quizz historia da magia.jfif" alt="hitoria da magia " width="100px" height="auto" id="historia">
+                        </p>
                     </li>
                     
                     <li>
                         Feitiços (Professor: Filio Flitwick )
-                        <p><img src="assets/spell-quizz.jpeg" alt="Feitiços" width="150px" height="auto" id="feitiços"></p>
+                        <p class="perguntas">
+                            <img src="assets/spell-quizz.jpeg" alt="Feitiços" width="150px" height="auto" id="feitiços">
+                        </p>
                     </li>
                     
                     <li>
                         Criaturas Magicas (Professor: Rubeo Hagrid)
-                        <p><img src="assets/quizz criaturas magicas.jpg" alt=" craituras magicas" width="150px" height="auto" id="criaturas"></p>
+                        <p class="perguntas">
+                            <img src="assets/quizz criaturas magicas.jpg" alt=" craituras magicas" width="150px" height="auto" id="criaturas">
+                        </p>
                     </li>
                     
                     <li>
                         Adivinhação (Professor: PatriciaTrelawney )
-                        <p><img src="assets/quizz-advinhaçao.jpeg" alt="Adivinhação" width="150px" height="auto" id="advinhaçao"></p>
+                        <p class="perguntas">
+                            <img src="assets/quizz-advinhaçao.jpeg" alt="Adivinhação" width="150px" height="auto" id="advinhaçao">
+                        </p>
                     </li>
                     
                     <li>
                         defesa contra as artes das trevas (Profesor: Remus John Lupin)
-                        <p><img src="assets/defesa.png" alt="defesa" width="150px" height="auto" id="defesa"></p>
+                        <p class="perguntas">
+                            <img src="assets/defesa.png" alt="defesa" width="150px" height="auto" id="defesa">
+                        </p>
                     </li>
                 </ul>
             </section>
@@ -146,65 +166,90 @@
         
         <div id="books">
             <footer>
-                
                 <h2 id="tittle">Livros: 
                     <p id="diferente" >OBS:click nos livros para acessa-los</p>
                     <p>
-                        <img src="assets/lendo.gif" alt="leitura" width="600px" height="auto"> 
+                        <img src="assets/lendo.gif" alt="leitura" width="600px" height="auto" id="leitura"> 
                     </p>
                 </h2>
                     
                 <nav>
                     <ol>
                         <li id="livro1">
-                            <a href="http://escolareginaaltman.com.br/wp-content/uploads/2020/04/Harry-Potter-e-a-pedra-filosofal.pdf"><img src="assets/livro1.jfif" alt="livro1"></a>
+                            <p>
+                                <strong class="ler">Harry Potter e a Pedra Filosofal:</strong> (no original, em inglês: Harry Potter and the Philosopher's Stone) é o primeiro dos sete livros da série de fantasia Harry Potter, escrita por J. K. Rowling. O livro conta a história de Harry Potter, um órfão criado pelos tios que descobre, em seu décimo primeiro aniversário, que é um bruxo. No romance, são narrados seus primeiros passos na comunidade bruxa, sua entrada na Escola de Magia e Bruxaria de Hogwarts e o início de sua amizade com Ron Weasley e Hermione Granger, os quais o ajudam a enfrentar Lord Voldemort — Lorde das Trevas e assassino dos pais de Harry, que agora procura um objeto lendário conhecido como a pedra filosofal.
+                                Após ter sido rejeitado por diversas editoras, o livro foi publicado no Reino Unido pela editora londrina Bloomsbury em 26 de junho 1997.[2] No Brasil, a editora Rocco comprou-lhe os direitos em 1999, tendo sido publicado em 1.º de janeiro do ano seguinte; em Portugal, entrou em circulação no dia 14 de outubro de 1999 por intermédio da editora Presença. 
+                                A obra ganhou a maioria das premiações britânicas julgadas por crianças e outros prêmios nos Estados Unidos e alcançou o topo da lista de ficções mais vendidas do The New York Times em agosto de 1999, na qual permaneceu perto da posição durante grande parte de 1999 e 2000.[3][4] O livro foi traduzido para mais de sessenta línguas diferentes.
+                            </p>
+                            <a href="http://escolareginaaltman.com.br/wp-content/uploads/2020/04/Harry-Potter-e-a-pedra-filosofal.pdf" class="perguntas"><img src="assets/livro1.jfif" alt="livro1"></a>
                         </li>
                     
                         <li id="livro2">
-                            <a href="https://educaemcasa.petropolis.rj.gov.br/uploads/bibliotecas/harry-potter-e-a-camara-secreta-j-k-rowling-pdf.pdf"><img src="assets/livro2.jfif" alt="livro2"></a>
+                            <p>
+                                <strong class="ler">Harry Potter and the Chamber of Secrets:</strong>  (Brasil: Harry Potter e a Câmara Secreta / Portugal: Harry Potter e a Câmara dos Segredos) é um romance de fantasia escrito pela britânica J. K. Rowling. É o segundo livro da série Harry Potter. O livro se envolve em torno da lenda de uma câmara secreta localizada na Escola de Magia e Bruxaria de Hogwarts, na qual abriga um monstro que matará a todos os bruxos que não provém de famílias mágicas. Diversos alunos aparecem petrificados e Harry Potter, além de ser apontado como o maior suspeito, tenta desvendar e resolver o mistério junto de seus melhores amigos, Rony Weasley e Hermione Granger.
+                                Após o grande sucesso do primeiro livro da série, a escritora aponta que apresentou grandes dificuldades em desenvolver Câmara Secreta por medo de desapontar o público, entretanto, também o considera como um de seus preferidos. Metade do livro já havia sido escrita quando o livro antecessor fora publicado. Rowling afirma que a trama da obra é mais direta em comparação à Harry Potter e a Pedra Filosofal. 
+                                O livro passou por diversas mudanças e revisões até chegar no resultado final.
+                            </p>
+                            <a href="https://educaemcasa.petropolis.rj.gov.br/uploads/bibliotecas/harry-potter-e-a-camara-secreta-j-k-rowling-pdf.pdf" class="perguntas"><img src="assets/livro2.jfif" alt="livro2"></a>
                         </li>
                     
                         <li id="livro3">
-                            <a href="https://escolareginaaltman.com.br/wp-content/uploads/2020/04/Harry-Potter-e-o-prisioneiro-de-Azkaban.pdf"><img src="assets/livro3.jfif" alt="livro3"> </a>
+                            <p>
+                                <strong class="ler">Harry Potter e o Prisioneiro de Azkaban:</strong> (no original em inglês Harry Potter and the Prisoner of Azkaban) é o terceiro livro dos sete volumes da série de fantasia Harry Potter, tanto em termos cronológicos como em ordem de publicação, da autora inglesa J. K. Rowling. Foi primeiramente publicado no Reino Unido pela editora londrina Bloomsbury em 1999.
+                                O livro conta sobre o terceiro ano de Harry Potter na Escola de Magia e Bruxaria de Hogwarts. Sem a aparição de Voldemort, a trama apresenta um novo perigo para o personagem principal: Sirius Black, que teria assassinado treze pessoas com um único feitiço, fugiu da prisão de Azkaban e estaria agora o perseguindo para matá-lo. O garoto, junto com seus dois amigos, Rony e Hermione, 
+                                começam a investigar o suposto assassino e acabam descobrindo muitos segredos que envolvem sua já falecida família.
+                            </p>
+                            <a href="https://escolareginaaltman.com.br/wp-content/uploads/2020/04/Harry-Potter-e-o-prisioneiro-de-Azkaban.pdf" class="perguntas"><img src="assets/livro3.jfif" alt="livro3"> </a>
                         </li>
                     
                         <li id="livro4">
-                            <a href="https://www.escolahenriquemedina.org/bibdigital/download/1508/Harry%20Potter%20e%20o%20Calice%20de%20Fogo%20-%20J.K.%20Rowling.pdf"><img src="assets/livro4.jfif" alt="livro4"></a>
+                            <p>
+                                <strong class="ler">Harry Potter e o Cálice de Fogo:</strong>  (no original em inglês Harry Potter and the Goblet of Fire) é o quarto livro dos sete volumes da série de fantasia Harry Potter, tanto em termos cronológicos como em ordem de publicação, da autora inglesa J. K. Rowling. Foi primeiramente publicado no Reino Unido e nos Estados Unidos em 2000. 
+                                O livro segue o quarto ano de Harry Potter na Escola de Magia e Bruxaria de Hogwarts. Neste ano, a Copa Anual de Quadribol entre as casas é substituída pelo Torneio Tribuxo, uma competição amistosa entre as três maiores escolas europeias de bruxaria — 
+                                Hogwarts, Beauxbatons e Durmstrang — que não se realizava havia um século. Somente alunos maiores de dezessete anos podem se inscrever no Torneio, porém, misteriosamente, Harry é escolhido pelo Cálice de Fogo e forçado a competir.
+                            </p>
+                            <a href="https://www.escolahenriquemedina.org/bibdigital/download/1508/Harry%20Potter%20e%20o%20Calice%20de%20Fogo%20-%20J.K.%20Rowling.pdf" class="perguntas"><img src="assets/livro4.jfif" alt="livro4"></a>
                         </li>
                     
                         <li id="livro5">
-                            <a href="https://escolareginaaltman.com.br/wp-content/uploads/2020/04/Harry-Potter-e-o-enigma-do-pr%C3%ADncipe.pdf"><img src="assets/livro6.jfif" alt="livro5"> </a>
-                            
+                            <p>
+                                <strong class="ler">Harry Potter and the Order of the Phoenix :</strong> (Brasil: Harry Potter e a Ordem da Fênix / Portugal: Harry Potter e a Ordem da Fénix) é o quinto livro dos sete volumes da série de fantasia Harry Potter, tanto em termos cronológicos como em ordem de publicação, da autora inglesa J. K. Rowling. O livro narra as lutas de Harry e seus colegas durante o quinto ano na Escola de Magia e 
+                                Bruxaria de Hogwarts, que incluem a aparição sub-reptícia do antagonista Lorde Voldemort e a preparação para os NOMs (acrônimo para Níveis Ordinários em Magia, são testes realizados por alunos do quinto ano). Após Harry presenciar o ressurgimento de Voldemort e lutar com ele no ano anterior, 
+                                o Ministério da Magia e o Profeta Diário iniciam durante as férias de verão uma campanha para desacreditar Harry e Dumbledore perante a comunidade mágica sobre o retorno do bruxo das trevas
+                            </p>
+                            <a href="https://escolareginaaltman.com.br/wp-content/uploads/2020/04/Harry-Potter-e-o-enigma-do-pr%C3%ADncipe.pdf" class="perguntas"><img src="assets/livro6.jfif" alt="livro5"> </a>
                         </li>
                     
                         <li id="livro6">
-                            <a href="https://escolareginaaltman.com.br/wp-content/uploads/2020/04/Harry-Potter-e-o-enigma-do-pr%C3%ADncipe.pdf"><img src="assets/livro5.jfif" alt="livro6"></a>
+                            <p>
+                                <strong class="ler">Harry Potter and the Half-Blood Prince:</strong> (Brasil: Harry Potter e o Enigma do Príncipe / Portugal: Harry Potter e o Príncipe Misterioso) é um romance de fantasia escrito pela britânica J. K. Rowling, sendo o sexto dos sete volumes da série Harry Potter. 
+                                Retomando os passos de Harry no mundo bruxo, o jovem, agora em seu sexto ano na Escola de Magia e Bruxaria de Hogwarts, prepara-se para a batalha final contra Voldemort, cujo poder aumenta ininterruptamente. 
+                                Em sessões privadas com o diretor Alvo Dumbledore, Harry vasculha o passado de Voldemort para obter respostas em como destruí-lo.
+                            </p>
+                            <a href="https://escolareginaaltman.com.br/wp-content/uploads/2020/04/Harry-Potter-e-o-enigma-do-pr%C3%ADncipe.pdf" class="perguntas"><img src="assets/livro5.jfif" alt="livro6"></a>
                         </li>
                     
                         <li id="livro7">
-                            <a href="https://escolaluizaugusto.com.br/home/wp-content/uploads/2020/06/J.-K.-Rowling-Harry-Potter-e-as-Rel%C3%ADquias-da-Morte-Oficial-1.pdf"><img src="assets/livro7.jfif" alt="livro7"></a>
+                            
+                            <p>
+                                <strong class="ler">Harry Potter and the Deathly Hallows:</strong>  (Brasil: Harry Potter e as Relíquias da Morte / Portugal: Harry Potter e os Talismãs da Morte) é um romance de fantasia escrito pela britânica J. K. Rowling. É o sétimo e último livro da série Harry Potter. Após se encarregarem da tarefa do falecido diretor da Escola de Magia e Bruxaria de Hogwarts,
+                                Alvo Dumbledore em encontrar e destruir todas as Horcruxes criadas pelo maior bruxo das trevas Voldemort, o livro narra a jornada do personagem principal, o jovem Harry, e seus melhores amigos Rony e Hermione, que abandonaram seu último ano letivo na escola de feitiçaria para cumprirem tal dever. Ao passo que o confronto final entre Harry e Voldemort se aproxima, a
+                                batalha entre os Comensais da Morte (seguidores de Voldemort) e o resto do mundo bruxo acontece. Foi lançado em 21 de julho de 2007 no Reino Unido e em outros países anglófonos e somente em 8 de novembro do mesmo ano no Brasil e 16 de novembro Portugal.
+                            </p>
+                            <a href="https://escolaluizaugusto.com.br/home/wp-content/uploads/2020/06/J.-K.-Rowling-Harry-Potter-e-as-Rel%C3%ADquias-da-Morte-Oficial-1.pdf" class="perguntas"><img src="assets/livro7.jfif" alt="livro7"></a>
                         </li>
-                
                     </ol>
                 </nav>
             </footer>
         </div>    
-            
-    
-    
-        
-        
-        
-        
-
-    
-    
-    
-    
-    
-    
+        <span>            
+            <p id="final">João  Eudes Carvalho
+             <span id="dobby">
+                <img src="assets/dobby.jfif" alt="" width="80px" >
+            </span>
+            </p>
+        </span>
     </main>
     <script src="app.js"></script>
-
 </body>
 </html>
