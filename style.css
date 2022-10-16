@@ -1,6 +1,6 @@
 body{
-    background-image: url(assets/backgound-teste8.jpeg);
-    box-sizing: border-box;
+background-image: url(assets/backgound-teste8.jpeg);
+box-sizing: border-box;
 }
 
 main{
@@ -14,6 +14,7 @@ border-radius: 5px 5px 5px 5px;
 border: solid white;
 
 
+
 }
 
 #b{
@@ -21,7 +22,10 @@ margin: 40px;
 background-color:#79798D;
 border-radius: 5px 5px 5px 5px;
 border: solid white;
+width: 600px;
+
 }
+
 
 
 #q{
@@ -46,7 +50,7 @@ color:white;
 }
 
 #entrada{
-    width: 90%;
+width: 90%;
 }
 header{
 text-align: center;
@@ -57,11 +61,21 @@ width: 100%;
 margin-bottom: 50px;
 background-color: #78524F;
 padding: 20px;
-margin-top: -10px;
-margin-left: -10px;
 box-shadow: 5px 5px 5px 5px;
 border: solid black 10px;
+
+
 }
+
+
+
+#pombo{
+position: fixed;
+margin-top: -43px;
+margin-left: -10px;
+
+}
+
 
 
 .hp{
@@ -83,16 +97,16 @@ box-shadow: 6px 6px 6px 6px black;
 
 
 #subtitulo{
-    text-align: center;
+text-align: center;
 }
 
 
 
 #voa{
-    cursor: pointer;
-    width: 15%;
-    margin-bottom: 80px;
-    border: solid white;
+cursor: pointer;
+width: 15%;
+margin-bottom: 80px;
+border: solid white;
     
 }
 
@@ -107,10 +121,9 @@ box-shadow: 6px 6px 6px 6px black;
 padding: 5px;
 font-style: italic;
 font-weight: bolder;
-        
+
 }
 
-    
 #grifinoria  p :hover{
 width: 300px;
 transition-duration: 4s;
@@ -119,7 +132,6 @@ cursor: pointer;
 }
 
 
-    
 
 #soncerina{
 background-color:  rgba(165, 164, 164, 0.788);
@@ -128,7 +140,7 @@ box-shadow: 6px 6px 6px 6px black;
 padding: 5px;
 font-style: italic;
 font-weight: bolder;
-        
+
 
 }
 
@@ -177,13 +189,12 @@ box-shadow: 6px 6px 6px 6px black;
 padding: 5px;
 font-style: italic;
 font-weight: bolder;
-        
 
 }
 
 
 
-    
+
 
 #lufa p :hover{
 width: 300px;
@@ -241,10 +252,9 @@ color: rgb(173, 173, 5);
 }
 
 .fundaçao :hover{
-    width: 200px;
-    transition-duration: 4s;
-    cursor: pointer;
-
+width: 200px;
+transition-duration: 4s;
+cursor: pointer;
 }
 
 
@@ -279,7 +289,7 @@ box-shadow: 6px 6px 6px 6px black;
 
 
 #map{
-    width: 35%;
+width: 35%;
 
 }
 
@@ -355,7 +365,7 @@ color: black;
 
 
 #books{
-    
+
 margin: auto;
 color: white; 
 padding: 10px;
@@ -442,7 +452,7 @@ margin: 15px;
 
 
 #livro7{
-    margin: 15px;
+margin: 15px;
 }
 
 #diferente{
@@ -475,11 +485,11 @@ border: solid white;
 
 }
 #dobby :hover{
-    transition-duration: 1s;
-    background-color: white;
-    width: 100px;
-    cursor: pointer;
-    
+transition-duration: 1s;
+background-color: white;
+width: 100px;
+cursor: pointer;
+
 }
 
 
