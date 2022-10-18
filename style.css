@@ -7,43 +7,26 @@ main{
 width: 100%;
 }
 
-#f{
+.menu{
 margin: 40px;
 background-color:#79798D;
 border-radius: 5px 5px 5px 5px;
 border: solid white;
+width: 500px;
+}
 
+
+#nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    
 
 
 }
 
-#b{
-margin: 40px;
-background-color:#79798D;
-border-radius: 5px 5px 5px 5px;
-border: solid white;
-width: 600px;
-
-}
-
-
-
-#q{
-margin: 40px;
-background-color:#79798D;
-border-radius: 5px 5px 5px 5px;
-border: solid white;
-}
-
-
-
-#swear{
-margin: 40px;
-background-color:#79798D;
-border-radius: 5px 5px 5px 5px;
-border: solid white;
-
-}
 
 #entrada  :hover{
 color:white;
@@ -60,7 +43,7 @@ font-size: 30px;
 width: 100%;
 margin-bottom: 50px;
 background-color: #78524F;
-padding: 20px;
+padding: 5px;
 box-shadow: 5px 5px 5px 5px;
 border: solid black 10px;
 
@@ -79,7 +62,7 @@ margin-left: -10px;
 
 
 .hp{
-margin-left: 10px;
+height: 80px;
 }
 
 h2{
