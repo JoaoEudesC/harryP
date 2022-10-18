@@ -18,17 +18,10 @@ margin: 18px;
 
 
 #nav{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap-reverse;
-    
+display: flex;
+justify-content: center;
+flex-wrap: wrap-reverse;
 
-    
-
-
-    
-
-    
 
 
 }
