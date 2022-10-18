@@ -8,20 +8,26 @@ width: 100%;
 }
 
 .menu{
-margin: 40px;
+
 background-color:#79798D;
 border-radius: 5px 5px 5px 5px;
 border: solid white;
-width: 500px;
+margin: 18px;
+
 }
 
 
 #nav{
     display: flex;
     justify-content: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-content: center;
+    flex-wrap: wrap-reverse;
+    
+
+    
+
+
+    
+
     
 
 
