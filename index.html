@@ -7,6 +7,7 @@
     <title>hogwarts</title>
     <link rel="shortcut icon" href="assets/ico.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
@@ -14,20 +15,20 @@
         <header id="pombo">
             <nav id="entrada">
                 <div id="nav">
-                    <img src="assets/h2.png" alt="harry"width="80px" height="auto" class="hp">
+                    <img src="assets/h2.png" alt="harry"width="80px" height="auto" class="hp rounded-circle">
                     <a href="#fundadores" class="menu" >Fundadores</a>
                     <a href="#books" class="menu" >Livros</a>
                     <a href="#quiz" class="menu" > quiz</a>
                     <a href="#mapa" class="menu" >Mapa</a>
                     <a href="#dobby" class="menu">desenvolvedor</a>
-                    <img src="assets/h2.png" alt="harry" width="80px" height="auto" class="hp">
+                    <img src="assets/h2.png" alt="harry" width="80px" height="auto" class="hp rounded-circle">
                 </div>
             </nav>
         </header>
+    </div>
         
         <div id="subtitulo">
-            <h2>hogwarts uma historia</h2>
-            <img src="assets/pombo de ouro.gif" alt="pombo" id="voa">
+            <img src="assets/pombo de ouro.gif" alt="pombo" id="voa" class="rounded-circle text-thumbnail">
         </div>
         
         <div id="grifinoria">
@@ -38,7 +39,7 @@
                 A casa corresponde aproximadamente ao elemento fogo, e é por esta razão, que suas cores foram escolhidas; elas também podem corresponder a um leão; com o escarlate representando sua crina e cauda e o ouro simbolizando sua pelagem.
             </p>
         </div>
-
+        
         <div id="soncerina">
             <p>
                 <img src="assets/soncerina.jpg" alt="soncerina" width="180px" height="auto">
@@ -47,7 +48,7 @@
                 Os membros da Sonserina têm como características, sobretudo, a ambição e a busca pela grandeza, por isso estão sempre se dedicando a alcançar e expandir metas e se empenhando com inteligência em diversas áreas da magia. Por outro lado, essas qualidades podem promover um senso de competição muito aflorado, o que os torna presunçosos e egoístas.
             </p>
         </div>
-
+        
         <div id="corvinal">
             <p>
                 <img src="assets/corvinal.jpg" alt="corvinal" width="180px" height="auto">
@@ -56,7 +57,7 @@
                 A casa corresponde aproximadamente ao elemento ar, e é por essa razão que suas cores foram escolhidas; o azul representa o céu e o bronze pode representar as penas de uma águia, ambos tendo muita relação com tal elemento.
             </p>
         </div>
-
+        
         <div id="lufa">
             <p>
                 <img src="assets/lufa-lufa.jpg" alt="lufa-lufa" width="180px" height="auto">
@@ -65,57 +66,71 @@
                 A casa corresponde aproximadamente ao elemento terra, e é por essa razão que suas cores foram escolhidas: o amarelo representa o trigo, enquanto o preto um símbolo do solo. Os estudantes classificados para a Lufa-Lufa comumente demonstram habilidades excepcionais em Herbologia, dado à correspondência da casa com a terra.
             </p>
         </div>
-
+                
         <div id="fundadores">
-            <h3>Fundadores:</h3>
+            <h3 id="h3">Fundadores:</h3>
             <section>
                 <article>
                     <p>
                         <ul>
-                            <li class="fundaçao">
-                                <img src="assets/godrico grynfindor.jpg" alt="godrico" width="100px" height="auto">
-                                <strong><span class="vermelho">Godrico grynfindor</span></strong> foi um bruxo inglês nascido por volta de 976 e um dos quatro fundadores da Escola de Magia e Bruxaria de Hogwarts. 
-                                Ele classificava seus alunos baseando-se em sua coragem, determinação e ousadia. Em sua homenagem, o local o qual nasceu, foi reconhecido como Godric's Hollow. 
-                                O retrato de Gryffindor ainda permanece no castelo de Hogwarts.
+                            <li>
+                                <span class="fundaçao">
+                                    <img src="assets/godrico grynfindor.jpg" alt="godrico" width="100px" height="auto" class="distance">
+                                </span>
+                                <p>
+                                    <strong><span class="vermelho">Godrico Grynfindor</span></strong> foi um bruxo inglês nascido por volta de 976 e um dos quatro fundadores da Escola de Magia e Bruxaria de Hogwarts. 
+                                    Ele classificava seus alunos baseando-se em sua coragem, determinação e ousadia. Em sua homenagem, o local o qual nasceu, foi reconhecido como Godric's Hollow. 
+                                    O retrato de Gryffindor ainda permanece no castelo de Hogwarts.
+                                </p>
                             </li>
-
-                            <li class="fundaçao"> 
-                                <img src="assets/salazar-slytheryn.jpeg" alt="salazar" width="90px" height="auto">
-                                <strong><span class="verde">Salazar Slytherin <span></strong> foi um bruxo sangue puro nascido por volta de 976 e um dos quatro fundadores da Escola de Magia e Bruxaria de Hogwarts, 
+                            
+                            <li> 
+                                <span class="fundaçao">
+                                    <img src="assets/salazar-slytheryn.jpeg" alt="salazar" width="90px" height="auto" class="distance" class="fundaçao">
+                                </span>
+                                <p>
+                                    <strong><span class="verde">Salazar Slytherin <span></strong> foi um bruxo sangue puro nascido por volta de 976 e um dos quatro fundadores da Escola de Magia e Bruxaria de Hogwarts, 
                                     sendo reconhecido por sua astúcia e determinação.
                                     Ele foi considerado um dos maiores bruxos da época, respectivamente como Ofidioglota e um habilidoso Legilimente.
                                     Ele prezava por uma educação inteiramente mágica, desconsiderando a admissão de estudantes nascidos trouxas em sua escola. No entanto, quando expressou sua opinião para os outros fundadores, 
-                                    Slytherin não obteve consenso completo. O que, em resposta, provocou sua saída do castelo.
+                                    Slytherin não obteve consenso completo. O que, em resposta, provocou sua saída do castelo
+                                </p>
                             </li>
-
-                            <li class="fundaçao">
-                                <img src="assets/ravenclaw.jpeg" alt="rowena" width="100px" height="auto">
-                                <strong><span class="azul">Rowena Ravenclaw </span> </strong>foi uma bruxa escocesa nascida por volta de 976 e uma das quatro fundadoras da Escola de Magia e Bruxaria de Hogwarts. 
-                                Ela era reconhecida por sua inteligência e criatividade. 
-                                Ravenclaw morreu em algum momento durante o século XI, logo depois de adoecer fatalmente. Acredita-se que, seu coração foi partido devido a fuga de sua filha Helena com seu diadema. 
-                                O retrato de Rowena permaneceu em Hogwarts após sua morte.
-                            </li>
-
-                            <li class="fundaçao">
-                                <img src="assets/helga.jpeg" alt="helga" width="100px" height="auto">
-                                <strong><span class="amarelo"> Helga Hufflepuff</span></strong>foi uma bruxa galesa nascida por volta de 976 e uma das quatro fundadoras da Escola de Magia e Bruxaria de Hogwarts. 
-                                Enquanto o restante dos instituidores prezavam por características especiais em seus alunos, Helga aceitou a todos sem preferência, 
-                                embora quisesse que eles fossem leais e dedicados. Seu retrato permaneceu no castelo pelo menos durante a década de 1980.
                             
+                            <li>
+                                <span class="fundaçao">
+                                    <img src="assets/ravenclaw.jpeg" alt="rowena" width="100px" height="auto" class="distance">
+                                </span>
+                                <p>
+                                    <strong><span class="azul">Rowena Ravenclaw </span> </strong>foi uma bruxa escocesa nascida por volta de 976 e uma das quatro fundadoras da Escola de Magia e Bruxaria de Hogwarts. 
+                                    Ela era reconhecida por sua inteligência e criatividade. 
+                                    Ravenclaw morreu em algum momento durante o século XI, logo depois de adoecer fatalmente. Acredita-se que, seu coração foi partido devido a fuga de sua filha Helena com seu diadema. O retrato de Rowena permaneceu em Hogwarts após sua morte.
+                                </p>
+                            </li>
+                            
+                            <li>
+                                <span class="fundaçao">
+                                    <img src="assets/helga.jpeg" alt="helga" width="100px" height="auto" class="distance">
+                                </span>
+                                <p>
+                                    <strong><span class="amarelo"> Helga Hufflepuff</span></strong>foi uma bruxa galesa nascida por volta de 976 e uma das quatro fundadoras da Escola de Magia e Bruxaria de Hogwarts. 
+                                    Enquanto o restante dos instituidores prezavam por características especiais em seus alunos, Helga aceitou a todos sem preferência, 
+                                    embora quisesse que eles fossem leais e dedicados. Seu retrato permaneceu no castelo pelo menos durante a década de 1980.
+                                </p>
                             </li>
                         </ul>
                     </p>
                 </article>
             </section>
         </div>
-
+        
         <section>
             <span id="mapa">
                 <p>Eu Juro Solenemente Que Não Vou Fazer Nada De Bom</p>
                 <img src="assets/mapa do maroto.gif" alt="mapa" id="map">
             </span>
         </section>
-
+        
         <div id="quiz">
             <h2 id="nos">faça a N.O.M.s para concluir hogwarts    <span id="click"> (OBS: click nos livros para acender as perguntas) </span></h2>
             <section>
@@ -170,9 +185,9 @@
         <div id="books">
             <footer>
                 <h2 id="tittle">Livros: 
-                    <p id="diferente" >OBS:click nos livros para acessá-los</p>
+                    <p id="diferente">OBS:click nos livros para acessá-los</p>
                     <p>
-                        <img src="assets/lendo.gif" alt="leitura" width="600px" height="auto" id="leitura"> 
+                        <img src="assets/lendo.gif" alt="leitura" width="600px" height="auto" class="rounded-circle img-fluid" id="harry"> 
                     </p>
                 </h2>
                     
@@ -185,8 +200,8 @@
                                 A obra ganhou a maioria das premiações britânicas julgadas por crianças e outros prêmios nos Estados Unidos e alcançou o topo da lista de ficções mais vendidas do The New York Times em agosto de 1999, na qual permaneceu perto da posição durante grande parte de 1999 e 2000.[3][4] O livro foi traduzido para mais de sessenta línguas diferentes.
                             </p>
                             <a href="http://escolareginaaltman.com.br/wp-content/uploads/2020/04/Harry-Potter-e-a-pedra-filosofal.pdf" class="perguntas"><img src="assets/livro1.jfif" alt="livro1"></a>
-                        </li>
-                    
+                        </li>            
+                        
                         <li id="livro2">
                             <p>
                                 <strong class="ler">Harry Potter and the Chamber of Secrets:</strong>  (Brasil: Harry Potter e a Câmara Secreta / Portugal: Harry Potter e a Câmara dos Segredos) é um romance de fantasia escrito pela britânica J. K. Rowling. É o segundo livro da série Harry Potter. O livro se envolve em torno da lenda de uma câmara secreta localizada na Escola de Magia e Bruxaria de Hogwarts, na qual abriga um monstro que matará a todos os bruxos que não provém de famílias mágicas. Diversos alunos aparecem petrificados e Harry Potter, além de ser apontado como o maior suspeito, tenta desvendar e resolver o mistério junto de seus melhores amigos, Rony Weasley e Hermione Granger.
@@ -195,7 +210,7 @@
                             </p>
                             <a href="https://educaemcasa.petropolis.rj.gov.br/uploads/bibliotecas/harry-potter-e-a-camara-secreta-j-k-rowling-pdf.pdf" class="perguntas"><img src="assets/livro2.jfif" alt="livro2"></a>
                         </li>
-                    
+                        
                         <li id="livro3">
                             <p>
                                 <strong class="ler">Harry Potter e o Prisioneiro de Azkaban:</strong> (no original em inglês Harry Potter and the Prisoner of Azkaban) é o terceiro livro dos sete volumes da série de fantasia Harry Potter, tanto em termos cronológicos como em ordem de publicação, da autora inglesa J. K. Rowling. Foi primeiramente publicado no Reino Unido pela editora londrina Bloomsbury em 1999.
@@ -204,7 +219,7 @@
                             </p>
                             <a href="https://escolareginaaltman.com.br/wp-content/uploads/2020/04/Harry-Potter-e-o-prisioneiro-de-Azkaban.pdf" class="perguntas"><img src="assets/livro3.jfif" alt="livro3"> </a>
                         </li>
-                    
+                        
                         <li id="livro4">
                             <p>
                                 <strong class="ler">Harry Potter e o Cálice de Fogo:</strong>  (no original em inglês Harry Potter and the Goblet of Fire) é o quarto livro dos sete volumes da série de fantasia Harry Potter, tanto em termos cronológicos como em ordem de publicação, da autora inglesa J. K. Rowling. Foi primeiramente publicado no Reino Unido e nos Estados Unidos em 2000. 
@@ -213,7 +228,7 @@
                             </p>
                             <a href="https://www.escolahenriquemedina.org/bibdigital/download/1508/Harry%20Potter%20e%20o%20Calice%20de%20Fogo%20-%20J.K.%20Rowling.pdf" class="perguntas"><img src="assets/livro4.jfif" alt="livro4"></a>
                         </li>
-                    
+                        
                         <li id="livro5">
                             <p>
                                 <strong class="ler">Harry Potter and the Order of the Phoenix :</strong> (Brasil: Harry Potter e a Ordem da Fênix / Portugal: Harry Potter e a Ordem da Fénix) é o quinto livro dos sete volumes da série de fantasia Harry Potter, tanto em termos cronológicos como em ordem de publicação, da autora inglesa J. K. Rowling. O livro narra as lutas de Harry e seus colegas durante o quinto ano na Escola de Magia e 
@@ -222,7 +237,7 @@
                             </p>
                             <a href="https://escolareginaaltman.com.br/wp-content/uploads/2020/04/Harry-Potter-e-o-enigma-do-pr%C3%ADncipe.pdf" class="perguntas"><img src="assets/livro6.jfif" alt="livro5"> </a>
                         </li>
-                    
+                        
                         <li id="livro6">
                             <p>
                                 <strong class="ler">Harry Potter and the Half-Blood Prince:</strong> (Brasil: Harry Potter e o Enigma do Príncipe / Portugal: Harry Potter e o Príncipe Misterioso) é um romance de fantasia escrito pela britânica J. K. Rowling, sendo o sexto dos sete volumes da série Harry Potter. 
@@ -231,7 +246,7 @@
                             </p>
                             <a href="https://escolareginaaltman.com.br/wp-content/uploads/2020/04/Harry-Potter-e-o-enigma-do-pr%C3%ADncipe.pdf" class="perguntas"><img src="assets/livro5.jfif" alt="livro6"></a>
                         </li>
-                    
+                        
                         <li id="livro7">
                             
                             <p>
@@ -247,9 +262,9 @@
         </div>    
         <span>            
             <p id="final">João  Eudes Carvalho
-            <span id="dobby">
-                <img src="assets/dobby.jfif" alt="" width="80px" >
-            </span>
+                <span id="dobby">
+                    <img src="assets/dobby.jfif" alt="" width="80px" >
+                </span>
             </p>
         </span>
     </main>
