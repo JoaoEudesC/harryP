@@ -8,16 +8,22 @@ width: 100%;
 }
 
 .menu{
-background-color:#79798D;
+background-color:#424268;
 border-radius: 5px 5px 5px 5px;
 border: solid white;
 margin: 18px;
+
 }
 
 
 #nav{
 display: flex;
 justify-content: center;
+
+}
+
+nav{
+color: black;
 }
 
 
@@ -58,6 +64,7 @@ border: solid black;
 
 .hp{
 height: 80px;
+
 }
 
 
@@ -173,10 +180,9 @@ padding: 5px;
 box-shadow: 6px 6px 6px 6px black;
 margin: 50px;
 font-style: italic;
-font-weight: bolder;
-font-size: 20px;
+font-weight: 900;
+font-size: 22px;
 display: flex;
-
 flex-direction: column;
 
 }
@@ -184,7 +190,7 @@ flex-direction: column;
 
 
 #h3{font-size: 50px;
-    font-weight: bolder;
+font-weight: bolder;
 }
 
 
@@ -209,7 +215,7 @@ color: rgb(6, 119, 6);
 }
 
 .azul{
-color: rgb(7, 7, 182);
+color: rgb(67, 67, 214);
 }
 
 .amarelo{
@@ -335,7 +341,8 @@ justify-content: center;
 }
 
 #harry{
-    border: solid white;
+border: solid white;
+width: 75%;
 }
 
 
@@ -354,12 +361,6 @@ font-size: 30px;
 #leitura{
 width: 60%;
 box-shadow: 6px 6px 6px 6px black;
-}
-
-
-
-nav{
-color: black;
 }
 
 
