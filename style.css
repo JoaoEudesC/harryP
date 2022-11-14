@@ -1,54 +1,53 @@
 body{
-background-image: url(assets/backgound-teste8.jpeg);
-box-sizing: border-box;
+  background-image: url(assets/backgound-teste8.jpeg);
+  box-sizing: border-box;
 
-  
-}
+ }
 
 main{
-width: 100%;
+  width: 100%;
 }
 
 .menu{
-background-color:#424268;
-border-radius: 5px 5px 5px 5px;
-border: solid white;
-margin: 18px;
+  background-color:#424268;
+  border-radius: 5px 5px 5px 5px;
+  border: solid white;
+  margin: 18px;
 
 }
 
 
 #nav{
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 
 }
 
 nav{
-color: black;
+  color: black;
 }
 
 
 #entrada  :hover{
-color:white;
+  color:white;
 }
 
 #entrada{
-width: 90%;
+  width: 90%;
 }
 
 
 header{
-text-align: center;
-margin: auto;
-cursor: pointer;  
-font-size: 30px;
-width: 100%;
-margin-bottom: 50px;
-background-color: #78524F;
-padding: 3px;
-box-shadow: 5px 5px 5px 5px;
-border: solid black 10px;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;  
+  font-size: 30px;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: #78524F;
+  padding: 3px;
+  box-shadow: 5px 5px 5px 5px;
+  border: solid black 10px;
 }
 
 
@@ -57,15 +56,15 @@ border: solid black 10px;
 
 
 #pombo{
-position: fixed;
-margin-top: -2px;
-border: solid black;
+  position: fixed;
+  margin-top: -2px;
+  border: solid black;
 }
 
 
 
 .hp{
-height: 80px;
+  height: 80px;
 
 }
 
@@ -74,8 +73,8 @@ height: 80px;
 
 
 #subtitulo{
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -83,12 +82,12 @@ justify-content: center;
 
 
 #voa{
-cursor: pointer;
-width: 20%;
-border: solid white;
-margin-top: 300px;
-text-align: center;
-border: solid black;
+  cursor: pointer;
+  width: 20%;
+  border: solid white;
+  margin-top: 300px;
+  text-align: center;
+  border: solid black;
 }
 
 
@@ -96,49 +95,49 @@ border: solid black;
 
 
 #grifinoria{
-background-color: rgba(165, 164, 164, 0.788);
-margin: 50px;
-box-shadow: 6px 6px 6px 6px black;
-padding: 5px;
-font-style: italic;
-font-weight: bolder;
+  background-color: rgba(165, 164, 164, 0.788);
+  margin: 50px;
+  box-shadow: 6px 6px 6px 6px black;
+  padding: 5px;
+  font-style: italic;
+  font-weight: bolder;
 }
 
 
 #grifinoria  p :hover{
-width: 300px;
-transition-duration: 4s;
-cursor: pointer;
+  width: 300px;
+  transition-duration: 4s;
+  cursor: pointer;
 }
 
 
 
 #soncerina{
-background-color:  rgba(165, 164, 164, 0.788);
-margin: 50px;
-box-shadow: 6px 6px 6px 6px black;
-padding: 5px;
-font-style: italic;
-font-weight: bolder;
+  background-color:  rgba(165, 164, 164, 0.788);
+  margin: 50px;
+  box-shadow: 6px 6px 6px 6px black;
+  padding: 5px;
+  font-style: italic;
+  font-weight: bolder;
 }
 
 
 
 #soncerina  p :hover{
-width: 300px;
-transition-duration: 4s;
-cursor: pointer;
+  width: 300px;
+  transition-duration: 4s;
+  cursor: pointer;
 }
 
 
 
 #corvinal{
-background-color:  rgba(165, 164, 164, 0.788);
-margin: 50px;
-box-shadow: 6px 6px 6px 6px black;
-padding: 5px;
-font-style: italic;
-font-weight: bolder;
+  background-color:  rgba(165, 164, 164, 0.788);
+  margin: 50px;
+  box-shadow: 6px 6px 6px 6px black;
+  padding: 5px;
+  font-style: italic;
+  font-weight: bolder;
 }
 
 
@@ -147,20 +146,20 @@ font-weight: bolder;
 
 
 #corvinal  p :hover{
-width: 300px;
-transition-duration: 4s;
-cursor: pointer;
+  width: 300px;
+  transition-duration: 4s;
+  cursor: pointer;
 }
 
 
 
 #lufa{
-background-color:  rgba(165, 164, 164, 0.788);
-margin: 50px;
-box-shadow: 6px 6px 6px 6px black;
-padding: 5px;
-font-style: italic;
-font-weight: bolder;
+  background-color:  rgba(165, 164, 164, 0.788);
+  margin: 50px;
+  box-shadow: 6px 6px 6px 6px black;
+  padding: 5px;
+  font-style: italic;
+  font-weight: bolder;
 }
 
 
@@ -168,289 +167,290 @@ font-weight: bolder;
 
 
 #lufa p :hover{
-width: 300px;
-transition-duration: 4s;
-cursor: pointer;
+  width: 300px;
+  transition-duration: 4s;
+  cursor: pointer;
 }
 
 
 
 #fundadores{
-background-color: #261900;
-background-image: url("https://transparenttextures.com/patterns/dark-wall.png");
-padding: 5px;
-box-shadow: 6px 6px 6px 6px black;
-margin: 50px;
-font-style: italic;
-font-weight: 900;
-font-size: 22px;
-display: flex;
-flex-direction: column;
+  background-color: #261900;
+  background-image: url("https://transparenttextures.com/patterns/dark-wall.png");
+  padding: 5px;
+  box-shadow: 6px 6px 6px 6px black;
+  margin: 50px;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
 
 }
 
 
 
 #h3{font-size: 50px;
-font-weight: bolder;
+  font-weight: bolder;
 }
 
 
 
 .distance{
-margin-top: 30px;
+  margin-top: 30px;
 }
 
 
 strong{
-font-size: 25px;
+  font-size: 25px;
 }
 
 
 .vermelho{
-color: rgb(197, 8, 8);
+  color: rgb(197, 8, 8);
 }
 
 
 .verde{
-color: rgb(6, 119, 6);
+  color: rgb(6, 119, 6);
 }
 
 .azul{
-color: rgb(67, 67, 214);
+  color: rgb(67, 67, 214);
 }
 
 .amarelo{
-color: rgb(173, 173, 5);
+  color: rgb(173, 173, 5);
 }
 
 
 
 .fundaçao :hover{
-width: 200px;
-transition-duration: 4s;
-cursor: pointer;
+  width: 200px;
+  transition-duration: 4s;
+  cursor: pointer;
 }
 
 
 h4{
-font-size: 30px;
+  font-size: 30px;
 }
 
 
 
 #mapa{
-display: block;
-text-align: center;
-margin: 10px;
-color: white;
-font-size: 50px;
-cursor: pointer;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  color: white;
+  font-size: 50px;
+  cursor: pointer;
 }
 
 
 
 #mapa p{
-background-color: #261900;
-background-image: url("https://transparenttextures.com/patterns/dark-wall.png");
-width: auto;
-text-align: center;
-display: block;
-box-shadow: 6px 6px 6px 6px black;
+  background-color: #261900;
+  background-image: url("https://transparenttextures.com/patterns/dark-wall.png");
+  width: auto;
+  text-align: center;
+  display: block;
+  box-shadow: 6px 6px 6px 6px black;
 }
 
 
 #map{
-width: 35%;
+  width: 35%;
 }
 
 
 
 
 #varinha{
-display: block;
-margin: 10px;
-color: white;
-font-size: 50px;
-cursor: pointer;
+  display: block;
+  margin: 10px;
+  color: white;
+  font-size: 50px;
+  cursor: pointer;
 }
 
 
 
 #varinha p{
-background-color:burlywood;
-width: auto;
-text-align: center;
-display: block;
-box-shadow: 6px 6px 6px 6px black;
+  background-color:burlywood;
+  width: auto;
+  text-align: center;
+  display: block;
+  box-shadow: 6px 6px 6px 6px black;
 }  
 
 
 ol{
-font-size: 20px;
+  font-size: 20px;
 }
 
 
 
 #quiz{
-color: white;
-font-size: 25px;
-cursor: pointer;
-box-shadow: 6px 6px 6px 6px black;
-margin: 50px;
-padding: 5px;
-font-style: italic;
-background-color: #261900;
-background-image: url("https://transparenttextures.com/patterns/dark-wall.png")
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  box-shadow: 6px 6px 6px 6px black;
+  margin: 50px;
+  padding: 5px;
+  font-style: italic;
+  background-color: #261900;
+  background-image: url("https://transparenttextures.com/patterns/dark-wall.png")
 }
 
 
 #quiz #nos{
-margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
-#quiz h2{margin: 10px;
+#quiz h2{
+  margin: 10px;
 }
 
 
 
 .perguntas :hover{
-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 
 #click{
-font-size: 20px;
-color: black;
+  font-size: 20px;
+  color: black;
 }
 
 
 
 #books{
-margin: auto;
-color: white; 
-padding: 10px;
-box-shadow: 8px 8px 8px 8px black;
-font-style: italic;
-width: 75%;
-padding: 15px;
-border: double black 30px;
-border-radius: 50px;
-background-color: #261900;
-background-image: url("https://transparenttextures.com/patterns/dark-wall.png");
-display: flex;
-justify-content: center;
+  margin: auto;
+  color: white; 
+  padding: 10px;
+  box-shadow: 8px 8px 8px 8px black;
+  font-style: italic;
+  width: 75%;
+  padding: 15px;
+  border: double black 30px;
+  border-radius: 50px;
+  background-color: #261900;
+  background-image: url("https://transparenttextures.com/patterns/dark-wall.png");
+  display: flex;
+  justify-content: center;
 }
 
 #harry{
-border: solid white;
-width: 75%;
+  border: solid white;
+  width: 75%;
 }
 
 
 #tittle{
-text-align: center;
+  text-align: center;
 }
 
 
 
 
 #livro p{
-font-size: 30px;
+  font-size: 30px;
 }
 
 
 #leitura{
-width: 60%;
-box-shadow: 6px 6px 6px 6px black;
+  width: 60%;
+  box-shadow: 6px 6px 6px 6px black;
 }
 
 
 a{
-color: black;
-text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 
 #bold{
-color: black;
+  color: black;
 }
 
 
 ol{
-font-weight: 900;
-font-size: 20px;
-margin: 10px;
+  font-weight: 900;
+  font-size: 20px;
+  margin: 10px;
 }
 
 
 #livro1{
-margin: 15px;
+  margin: 15px;
 }
 
 
 #livro2{
-margin: 15px;
+  margin: 15px;
 }
 
 
 #livro3{
-margin: 15px;
+  margin: 15px;
 }
 
 
 #livro4{
-margin: 15px;
+  margin: 15px;
 }
 
 
 #livro5{
-margin: 15px;
+  margin: 15px;
 }
 
 
 #livro6{
-margin: 15px;
+  margin: 15px;
 }
 
 
 #livro7{
-margin: 15px;
+  margin: 15px;
 }
 
 #diferente{
-color:firebrick;
-font-size: 30px;
+  color:firebrick;
+  font-size: 30px;
 }
 
 
 .ler{
-color: black;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: 25px;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
 }
 
 
 #final{
-color: white;
-font-size: 30px;
-text-align: center;
-text-decoration: underline;
-background-color: #A08399;
-border-radius: 10px 10px 10px 10px;
-width: 300px;
-margin: auto;
-margin-bottom: 25px;
-margin-top: 100px;
-box-shadow: 6px 6px 6px 6px black;
-border: solid white;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  background-color: #A08399;
+  border-radius: 10px 10px 10px 10px;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 100px;
+  box-shadow: 6px 6px 6px 6px black;
+  border: solid white;
 }
 
 #dobby :hover{
-transition-duration: 1s;
-background-color: white;
-width: 100px;
-cursor: pointer;
+  transition-duration: 1s;
+  background-color: white;
+  width: 100px;
+  cursor: pointer;
 }
 
 
