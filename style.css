@@ -20,6 +20,8 @@ main{
 #nav{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
 
 }
 
@@ -48,11 +50,15 @@ header{
   padding: 3px;
   box-shadow: 5px 5px 5px 5px;
   border: solid black 10px;
+  border: solid gray;
 }
 
 
 
-
+#cabeçalho{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 
 #pombo{
@@ -452,6 +458,11 @@ ol{
   width: 100px;
   cursor: pointer;
 }
+
+
+
+
+
 
 
 
