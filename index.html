@@ -7,15 +7,18 @@
     <title>hogwarts</title>
     <link rel="shortcut icon" href="assets/ico.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
     <main>
-        
+        <i class="bi bi-door-open-fill" id="door">Open the door</i>
             <header id="pombo">
                 <nav id="entrada">
                     <div id="nav" >
+                        <i class="bi bi-x-lg" id="fechar"></i>
                         <a href="#fundadores" class="menu" >Fundadores</a>
                         <a href="#books" class="menu" >Livros</a>
                         <a href="#quiz" class="menu" > quiz</a>
@@ -24,7 +27,7 @@
                 </nav>
             </header>
         <div id="subtitulo">
-            <img src="assets/pombo de ouro.gif" alt="pombo" id="voa" class="rounded-circle img-thumbnail">
+            <img src="assets/pombo de ouro.gif" alt="pombo" id="voa" class="rounded-circle img-thumbnail" width="50%">
         </div>
         
         <div id="grifinoria">
@@ -134,7 +137,7 @@
         
         <section>
             <span id="mapa">
-                <p>Eu Juro Solenemente Que Não Vou Fazer Nada De Bom</p>
+                <p id="mapa_maroto">Eu Juro Solenemente Que Não Vou Fazer Nada De Bom</p>
                 <img src="assets/mapa do maroto.gif" alt="mapa" id="map">
             </span>
         </section>
@@ -191,7 +194,7 @@
         
         
         <div id="books">
-            <footer>
+            <footer id="space">
                 <h2 id="tittle">Livros: 
                     <p id="diferente">OBS:click nos livros para acessá-los</p>
                     <p>
@@ -202,8 +205,8 @@
                 <nav>
                     <ol>
                         <li id="livro1">
-                            <p>
-                                <strong class="ler">Harry Potter e a Pedra Filosofal:</strong> (no original, em inglês: Harry Potter and the Philosopher's Stone) é o primeiro dos sete livros da série de fantasia Harry Potter, escrita por J. K. Rowling. O livro conta a história de Harry Potter, um órfão criado pelos tios que descobre, em seu décimo primeiro aniversário, que é um bruxo. No romance, são narrados seus primeiros passos na comunidade bruxa, sua entrada na Escola de Magia e Bruxaria de Hogwarts e o início de sua amizade com Ron Weasley e Hermione Granger, os quais o ajudam a enfrentar Lord Voldemort — Lorde das Trevas e assassino dos pais de Harry, que agora procura um objeto lendário conhecido como a pedra filosofal.
+                            <p class="font">
+                                <span class="ler">Harry Potter e a Pedra Filosofal:</span> (no original, em inglês: Harry Potter and the Philosopher's Stone) é o primeiro dos sete livros da série de fantasia Harry Potter, escrita por J. K. Rowling. O livro conta a história de Harry Potter, um órfão criado pelos tios que descobre, em seu décimo primeiro aniversário, que é um bruxo. No romance, são narrados seus primeiros passos na comunidade bruxa, sua entrada na Escola de Magia e Bruxaria de Hogwarts e o início de sua amizade com Ron Weasley e Hermione Granger, os quais o ajudam a enfrentar Lord Voldemort — Lorde das Trevas e assassino dos pais de Harry, que agora procura um objeto lendário conhecido como a pedra filosofal.
                                 Após ter sido rejeitado por diversas editoras, o livro foi publicado no Reino Unido pela editora londrina Bloomsbury em 26 de junho 1997.[2] No Brasil, a editora Rocco comprou-lhe os direitos em 1999, tendo sido publicado em 1.º de janeiro do ano seguinte; em Portugal, entrou em circulação no dia 14 de outubro de 1999 por intermédio da editora Presença. 
                                 A obra ganhou a maioria das premiações britânicas julgadas por crianças e outros prêmios nos Estados Unidos e alcançou o topo da lista de ficções mais vendidas do The New York Times em agosto de 1999, na qual permaneceu perto da posição durante grande parte de 1999 e 2000.[3][4] O livro foi traduzido para mais de sessenta línguas diferentes.
                             </p>
@@ -211,17 +214,17 @@
                         </li>            
                         
                         <li id="livro2">
-                            <p>
-                                <strong class="ler">Harry Potter and the Chamber of Secrets:</strong>  (Brasil: Harry Potter e a Câmara Secreta / Portugal: Harry Potter e a Câmara dos Segredos) é um romance de fantasia escrito pela britânica J. K. Rowling. É o segundo livro da série Harry Potter. O livro se envolve em torno da lenda de uma câmara secreta localizada na Escola de Magia e Bruxaria de Hogwarts, na qual abriga um monstro que matará a todos os bruxos que não provém de famílias mágicas. Diversos alunos aparecem petrificados e Harry Potter, além de ser apontado como o maior suspeito, tenta desvendar e resolver o mistério junto de seus melhores amigos, Rony Weasley e Hermione Granger.
+                            <p class="font">
+                                <span class="ler">Harry Potter and the Chamber of Secrets:</span>  (Brasil: Harry Potter e a Câmara Secreta / Portugal: Harry Potter e a Câmara dos Segredos) é um romance de fantasia escrito pela britânica J. K. Rowling. É o segundo livro da série Harry Potter. O livro se envolve em torno da lenda de uma câmara secreta localizada na Escola de Magia e Bruxaria de Hogwarts, na qual abriga um monstro que matará a todos os bruxos que não provém de famílias mágicas. Diversos alunos aparecem petrificados e Harry Potter, além de ser apontado como o maior suspeito, tenta desvendar e resolver o mistério junto de seus melhores amigos, Rony Weasley e Hermione Granger.
                                 Após o grande sucesso do primeiro livro da série, a escritora aponta que apresentou grandes dificuldades em desenvolver Câmara Secreta por medo de desapontar o público, entretanto, também o considera como um de seus preferidos. Metade do livro já havia sido escrita quando o livro antecessor fora publicado. Rowling afirma que a trama da obra é mais direta em comparação à Harry Potter e a Pedra Filosofal. 
                                 O livro passou por diversas mudanças e revisões até chegar no resultado final.
                             </p>
                             <a href="https://educaemcasa.petropolis.rj.gov.br/uploads/bibliotecas/harry-potter-e-a-camara-secreta-j-k-rowling-pdf.pdf" class="perguntas"><img src="assets/livro2.jfif" alt="livro2" class = "img-thumbnail"></a>
                         </li>
                         
-                        <li id="livro3">
-                            <p>
-                                <strong class="ler">Harry Potter e o Prisioneiro de Azkaban:</strong> (no original em inglês Harry Potter and the Prisoner of Azkaban) é o terceiro livro dos sete volumes da série de fantasia Harry Potter, tanto em termos cronológicos como em ordem de publicação, da autora inglesa J. K. Rowling. Foi primeiramente publicado no Reino Unido pela editora londrina Bloomsbury em 1999.
+                        <li id="livro3" class="space">
+                            <p class="font">
+                                <span class="ler">Harry Potter e o Prisioneiro de Azkaban:</span> (no original em inglês Harry Potter and the Prisoner of Azkaban) é o terceiro livro dos sete volumes da série de fantasia Harry Potter, tanto em termos cronológicos como em ordem de publicação, da autora inglesa J. K. Rowling. Foi primeiramente publicado no Reino Unido pela editora londrina Bloomsbury em 1999.
                                 O livro conta sobre o terceiro ano de Harry Potter na Escola de Magia e Bruxaria de Hogwarts. Sem a aparição de Voldemort, a trama apresenta um novo perigo para o personagem principal: Sirius Black, que teria assassinado treze pessoas com um único feitiço, fugiu da prisão de Azkaban e estaria agora o perseguindo para matá-lo. O garoto, junto com seus dois amigos, Rony e Hermione, 
                                 começam a investigar o suposto assassino e acabam descobrindo muitos segredos que envolvem sua já falecida família.
                             </p>
@@ -229,8 +232,8 @@
                         </li>
                         
                         <li id="livro4">
-                            <p>
-                                <strong class="ler">Harry Potter e o Cálice de Fogo:</strong>  (no original em inglês Harry Potter and the Goblet of Fire) é o quarto livro dos sete volumes da série de fantasia Harry Potter, tanto em termos cronológicos como em ordem de publicação, da autora inglesa J. K. Rowling. Foi primeiramente publicado no Reino Unido e nos Estados Unidos em 2000. 
+                            <p class="font">
+                                <span class="ler">Harry Potter e o Cálice de Fogo:</span>  (no original em inglês Harry Potter and the Goblet of Fire) é o quarto livro dos sete volumes da série de fantasia Harry Potter, tanto em termos cronológicos como em ordem de publicação, da autora inglesa J. K. Rowling. Foi primeiramente publicado no Reino Unido e nos Estados Unidos em 2000. 
                                 O livro segue o quarto ano de Harry Potter na Escola de Magia e Bruxaria de Hogwarts. Neste ano, a Copa Anual de Quadribol entre as casas é substituída pelo Torneio Tribuxo, uma competição amistosa entre as três maiores escolas europeias de bruxaria — 
                                 Hogwarts, Beauxbatons e Durmstrang — que não se realizava havia um século. Somente alunos maiores de dezessete anos podem se inscrever no Torneio, porém, misteriosamente, Harry é escolhido pelo Cálice de Fogo e forçado a competir.
                             </p>
@@ -238,8 +241,8 @@
                         </li>
                         
                         <li id="livro5">
-                            <p>
-                                <strong class="ler">Harry Potter and the Order of the Phoenix :</strong> (Brasil: Harry Potter e a Ordem da Fênix / Portugal: Harry Potter e a Ordem da Fénix) é o quinto livro dos sete volumes da série de fantasia Harry Potter, tanto em termos cronológicos como em ordem de publicação, da autora inglesa J. K. Rowling. O livro narra as lutas de Harry e seus colegas durante o quinto ano na Escola de Magia e 
+                            <p class="font">
+                                <span class="ler">Harry Potter and the Order of the Phoenix :</span> (Brasil: Harry Potter e a Ordem da Fênix / Portugal: Harry Potter e a Ordem da Fénix) é o quinto livro dos sete volumes da série de fantasia Harry Potter, tanto em termos cronológicos como em ordem de publicação, da autora inglesa J. K. Rowling. O livro narra as lutas de Harry e seus colegas durante o quinto ano na Escola de Magia e 
                                 Bruxaria de Hogwarts, que incluem a aparição sub-reptícia do antagonista Lorde Voldemort e a preparação para os NOMs (acrônimo para Níveis Ordinários em Magia, são testes realizados por alunos do quinto ano). Após Harry presenciar o ressurgimento de Voldemort e lutar com ele no ano anterior, 
                                 o Ministério da Magia e o Profeta Diário iniciam durante as férias de verão uma campanha para desacreditar Harry e Dumbledore perante a comunidade mágica sobre o retorno do bruxo das trevas
                             </p>
@@ -247,8 +250,8 @@
                         </li>
                         
                         <li id="livro6">
-                            <p>
-                                <strong class="ler">Harry Potter and the Half-Blood Prince:</strong> (Brasil: Harry Potter e o Enigma do Príncipe / Portugal: Harry Potter e o Príncipe Misterioso) é um romance de fantasia escrito pela britânica J. K. Rowling, sendo o sexto dos sete volumes da série Harry Potter. 
+                            <p class="font">
+                                <span class="ler">Harry Potter and the Half-Blood Prince:</span> (Brasil: Harry Potter e o Enigma do Príncipe / Portugal: Harry Potter e o Príncipe Misterioso) é um romance de fantasia escrito pela britânica J. K. Rowling, sendo o sexto dos sete volumes da série Harry Potter. 
                                 Retomando os passos de Harry no mundo bruxo, o jovem, agora em seu sexto ano na Escola de Magia e Bruxaria de Hogwarts, prepara-se para a batalha final contra Voldemort, cujo poder aumenta ininterruptamente. 
                                 Em sessões privadas com o diretor Alvo Dumbledore, Harry vasculha o passado de Voldemort para obter respostas em como destruí-lo.
                             </p>
@@ -257,8 +260,8 @@
                         
                         <li id="livro7">
                             
-                            <p>
-                                <strong class="ler">Harry Potter and the Deathly Hallows:</strong>  (Brasil: Harry Potter e as Relíquias da Morte / Portugal: Harry Potter e os Talismãs da Morte) é um romance de fantasia escrito pela britânica J. K. Rowling. É o sétimo e último livro da série Harry Potter. Após se encarregarem da tarefa do falecido diretor da Escola de Magia e Bruxaria de Hogwarts,
+                            <p class="font">
+                                <span class="ler">Harry Potter and the Deathly Hallows:</span>  (Brasil: Harry Potter e as Relíquias da Morte / Portugal: Harry Potter e os Talismãs da Morte) é um romance de fantasia escrito pela britânica J. K. Rowling. É o sétimo e último livro da série Harry Potter. Após se encarregarem da tarefa do falecido diretor da Escola de Magia e Bruxaria de Hogwarts,
                                 Alvo Dumbledore em encontrar e destruir todas as Horcruxes criadas pelo maior bruxo das trevas Voldemort, o livro narra a jornada do personagem principal, o jovem Harry, e seus melhores amigos Rony e Hermione, que abandonaram seu último ano letivo na escola de feitiçaria para cumprirem tal dever. Ao passo que o confronto final entre Harry e Voldemort se aproxima, a
                                 batalha entre os Comensais da Morte (seguidores de Voldemort) e o resto do mundo bruxo acontece. Foi lançado em 21 de julho de 2007 no Reino Unido e em outros países anglófonos e somente em 8 de novembro do mesmo ano no Brasil e 16 de novembro Portugal.
                             </p>

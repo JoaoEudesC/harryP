@@ -307,6 +307,7 @@ c.style.backgroundColor="rgba(165, 164, 164, 0.788)"
 
 //mudança de cor div/lufa
 
+
 var l = document.getElementById("lufa")
 
 l.addEventListener("mouseenter", texugo)
@@ -321,3 +322,25 @@ function lufa(){
 
 l.style.backgroundColor="rgba(165, 164, 164, 0.788)"
 }
+
+
+
+
+//funçao do icone de x do menu de navegaçao
+
+
+
+let porta = document.getElementById("door")
+let fechar = document.getElementById("fechar")
+let header = document.getElementById("pombo")
+
+fechar.addEventListener("click" , ()=>{
+    header.style.display="none"
+    porta.style.display="block"
+})
+
+
+porta.addEventListener("click", ()=>{
+    header.style.display="block"
+    porta.style.display="none"
+})
